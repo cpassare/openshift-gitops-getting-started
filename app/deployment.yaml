@@ -25,7 +25,8 @@ spec:
       - name: spring-petclinic
         imagePullPolicy: Always
         #image: quay.io/siamaksade/spring-petclinic:latest
-        image: quay.io/cpassare/php-x-forwarder-test:latest
+        #image: quay.io/cpassare/php-x-forwarder-test:latest
+        image: quay.io/cpassare/client-go:latest
         livenessProbe:
           failureThreshold: 3
           httpGet:
